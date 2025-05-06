@@ -43,3 +43,5 @@ Install the project...
 -- Installing: /usr/local/lib/cmake/glog/glog-targets-noconfig.cmake
 
 ```
+
+如何管理日志，限制日志文件大小，定期删除？
