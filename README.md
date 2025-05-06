@@ -45,3 +45,4 @@ Install the project...
 ```
 
 如何管理日志，限制日志文件大小，定期删除？
+参考：https://cloud.tencent.com/developer/article/2438756
