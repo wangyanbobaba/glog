@@ -102,7 +102,7 @@ find "$LOG_DIR" -type f -name "*.log" -exec ls -t {} + | tail -n +$(($KEEP_FILES
 
 ### 2.赋予脚本执行权限
 ```
-chmod +x clean_logs.sh
+chmod +x /root/taihe/launch/sh/clean_logs.sh
 ```
 
 ### 3.设置定时任务
@@ -134,7 +134,7 @@ Choose 1-5 [1]:
 编辑脚本任务
 ```
 # 每天凌晨2点执行清理脚本
-0 2 * * * /path/to/clean_logs.sh
+0 2 * * * /root/taihe/launch/sh/clean_logs.sh
 ```
 0：表示分钟，这里设置为0，即每小时的第0分钟（也就是整点）。  
 13：表示小时，这里设置为13点。* * *：分别表示每天、每月和每年，三个*表示每天执行。
