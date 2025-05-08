@@ -44,5 +44,10 @@ Install the project...
 
 ```
 
+执行sudo make install之后记得执行
+```
+sudo ldconfig
+```
+
 如何管理日志，限制日志文件大小，定期删除？
 参考：https://cloud.tencent.com/developer/article/2438756
