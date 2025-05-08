@@ -71,6 +71,13 @@ sudo ldconfig
 LOG(INFO) << "warning!!!!  Occupied";
 ```
 
+cmake,在原代码基础上添加两行即可（注意直接在相应代码行添加，不用修改代码）
+```
+find_package(glog REQUIRED)
+target_link_libraries(image_detect glog::glog)
+```
+
+
 
 ## 如何管理日志，定期删除？
 使用Linux的cron服务来定期执行清理脚本
